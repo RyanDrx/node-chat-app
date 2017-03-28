@@ -71,6 +71,4 @@ describe('Users', () => {
         var gotUser = users.getUser('2341');
         expect(gotUser).toNotExist();
     });
-
-
 });
