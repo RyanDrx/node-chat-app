@@ -17,18 +17,15 @@
     </div>
 
     <div class="chat__main">
-        <ol class="chat__messages" id="messages">
-            <!-- li messages appended here -->
-        </ol>
+        <ol id="messages" class="chat__messages"></ol>
 
         <div class="chat__footer">
             <form id="message-form">
-                <input id="messageText" type="Text" placeholder="message" autofocus autocomplete="off" />
+                <input name="message" type="text" placeholder="Message" autofocus autocomplete="off" />
                 <button>Send</button>
             </form>
-            <button id="sendLocation">Share Location</button>
+            <button id="send-location">Send location</button>
         </div>
-
     </div>
 
     <script id="message-template" type="text/template">
